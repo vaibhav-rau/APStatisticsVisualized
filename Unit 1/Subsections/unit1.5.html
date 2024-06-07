@@ -31,22 +31,29 @@
     <h2>Outliers</h2>
     <p id="outlierQuestion1"></p>
     <select id="outlier1">
+		<option value="">Select an answer</option>
         <option value="yes">Yes</option>
         <option value="no">No</option>
     </select>
     <p id="outlierQuestion2"></p>
     <select id="outlier2">
+		<option value="">Select an answer</option>
         <option value="yes">Yes</option>
         <option value="no">No</option>
     </select>
     <p id="outlierQuestion3"></p>
     <select id="outlier3">
+		<option value="">Select an answer</option>
         <option value="yes">Yes</option>
         <option value="no">No</option>
     </select>
 	<p></p>
-    <button onclick="checkAnswers()">Check Answers</button>
-    <ul id="answers"></ul>
+		<section>
+            <h2>Your Answers</h2>
+            <ul id="answers"></ul>
+            <button onclick="checkAnswers()">Submit</button>
+        </section>
+	<ul id="answers"></ul>
     </main>
     <footer>
         <p>&copy; 2024 AP Statistics Visualized. All rights reserved.</p>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP Statistics Unit 1.6</title>
+    <link rel="stylesheet" href="C:\Users\vrau3\OneDrive\Work\Websites\Home Page\homepage.css">
+</head>
+<body>
+    <header>
+        <h1> . </h1>
+    </header>
+    <main>
+        <section>
+            <h2>Comparing Distributions: Center, Spread, and Shape</h2>
+            <p>You are analyzing the distribution of flight hours from a dataset of 110 aircraft. Answer the questions based on this histogram:</p>
+			<center><img src="flightHours.png" alt="Flight Hours"></center>
+    <p>What is the shape of the distribution?</p>
+	<p id="question1"></p>
+    <select id="q1">
+		<option value="">Select an answer</option>
+        <option value="normal">Normal</option>
+        <option value="uniform">Uniform</option>
+		<option value="skr">Skewed Right</option>
+		<option value="skl">Skewed Left</option>
+    </select>
+	<p>What is the spread (range) of the distribution? <b>Sometimes on AP tests, you will need to estimate the IQR/SD.</b></p>
+    <p id="question2"></p>
+    <input type="number" id="q2" step="0.1">
+	<p>What is the center of the distribution?</p>
+    <p id="question3"></p>
+    <select id="q3">
+		<option value="">Select an answer</option>
+        <option value="1">1.1-2.4</option>
+        <option value="2">2.4-3.7</option>
+		<option value="3">3.7-5.0</option>
+		<option value="4">5.0-6.3</option>
+    </select>
+	<p></p>
+		<section>
+            <h2>Your Answers</h2>
+            <ul id="answers"></ul>
+            <button onclick="checkAnswers()">Submit</button>
+        </section>
+	<ul id="answers"></ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 AP Statistics Visualized. All rights reserved.</p>
+    </footer>
+    <script src="C:\Users\vrau3\OneDrive\Work\Websites\Unit 1\Subsections\unit1.6.js"></script>
+</body>
+</html>
