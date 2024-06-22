@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP Statistics Unit 2.2</title>
+    <link rel="stylesheet" href="C:\Users\vrau3\OneDrive\Work\Websites\Home Page\homepage.css">
+</head>
+<body>
+    <header>
+        <h1> . </h1>
+    </header>
+    <main>
+        <section>
+<h1>Unit 2 Section 2: Least-Squares Regression</h1>
+    <p>In this section, we will explore the concept of least squares regression using flight data. Answer the questions based on the data and calculations provided.</p>
+    <div class="dataset">
+        <table>
+            <thead>
+                <tr>
+                    <th>Flight Distance (km)</th>
+                    <th>Likelihood of Malfunction (%)</th>
+                </tr>
+            </thead>
+            <tbody id="data-table">
+                <!-- Data will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    
+    <p>Given the following flight data, calculate the least squares regression line (y = mx + b). What is the slope (m) of the regression line?</p>
+    <select id="slope">
+        <option value="">Select an answer</option>
+        <option value="0.85">0.85</option>
+        <option value="1.15">1.15</option>
+        <option value="1.45">1.45</option>
+    </select>
+
+    <p>What is the y-intercept (b) of the regression line?</p>
+    <select id="intercept">
+        <option value="">Select an answer</option>
+        <option value="2.5">2.5</option>
+        <option value="3.5">3.5</option>
+        <option value="4.5">4.5</option>
+    </select>
+
+    
+    <p>If a flight distance is 100 km, what is the predicted likelihood of a malfunction using the regression line?</p>
+    <select id="prediction">
+        <option value="">Select an answer</option>
+        <option value="85%">85%</option>
+        <option value="115%">115%</option>
+        <option value="145%">145%</option>
+    </select>
+
+	<section>
+            <h2>Your Answers</h2>
+            <ul id="answers"></ul>
+            <button onclick="checkAnswers()">Submit</button>
+        </section>
+    <ul id="answers"></ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 AP Statistics Visualized. All rights reserved.</p>
+    </footer>
+    <script src="C:\Users\vrau3\OneDrive\Work\Websites\Unit 2\Subsections\unit2.2.js"></script>
+</body>
+</html>

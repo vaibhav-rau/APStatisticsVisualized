@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP Statistics Unit 2.3</title>
+    <link rel="stylesheet" href="C:\Users\vrau3\OneDrive\Work\Websites\Home Page\homepage.css">
+</head>
+<body>
+    <header>
+        <h1> . </h1>
+    </header>
+    <main>
+        <section>
+<h1>Unit 2 Section 2: Interpreting Regression Models</h1>
+     <p>In this section, we will explore the concept of residuals and residual plots using flight data. Answer the questions based on the data and residual plot provided.</p>
+
+    <div class="dataset">
+        <table>
+            <thead>
+                <tr>
+                    <th>Flight Distance (km)</th>
+                    <th>Likelihood of Malfunction (%)</th>
+                    <th>Residual</th>
+                </tr>
+            </thead>
+            <tbody id="data-table">
+                <!-- Data will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <h2>Question 1</h2>
+    <p>Based on the residual plot, is there any visible pattern in the residuals?</p>
+    <select id="pattern">
+        <option value="">Select an answer</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select>
+
+    <h2>Question 2</h2>
+    <p>If there is a pattern in the residuals, what does this indicate about the model?</p>
+    <select id="model-indication">
+        <option value="">Select an answer</option>
+        <option value="model is appropriate">Model is appropriate</option>
+        <option value="model is not appropriate">Model is not appropriate</option>
+    </select>
+
+    <h2>Question 3</h2>
+    <p>What should be done if a pattern is observed in the residual plot?</p>
+    <select id="action">
+        <option value="">Select an answer</option>
+        <option value="use a different model">Use a different model</option>
+        <option value="use the same model">Use the same model</option>
+    </select>
+
+	<section>
+            <h2>Your Answers</h2>
+            <ul id="answers"></ul>
+            <button onclick="checkAnswers()">Submit</button>
+        </section>
+    <ul id="answers"></ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 AP Statistics Visualized. All rights reserved.</p>
+    </footer>
+    <script src="C:\Users\vrau3\OneDrive\Work\Websites\Unit 2\Subsections\unit2.3.js"></script>
+</body>
+</html>
